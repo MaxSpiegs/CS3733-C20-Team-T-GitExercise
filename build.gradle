@@ -7,7 +7,7 @@ plugins {
 }
 sourceCompatibility = '1.8'
 targetCompatibility = '1.8'
-mainClassName = '' // replace with your main class path
+mainClassName = 'Main' // replace with your main class path
 
 //TestFX doesn't play nice with macOS
 String osName = System.getProperty("os.name").toLowerCase();
